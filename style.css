@@ -1,0 +1,77 @@
+.text-center {
+	color: darkblue;
+	padding: 0px;
+}
+
+@media (max-width: 800px) {
+	.text-center {
+		color: brown;
+		font-style: italic;
+		padding: 10px;
+	}
+}
+
+h4 {
+	color: orange;
+	font-weight: bold;
+}
+
+.profile {
+	float: justify;
+	background-color: white;
+	padding: 5px 20px;
+	font-size: 15px;
+	border-radius: 50px;
+	border: 10px solid black;
+	font-style: oblique;
+	border-color: firebrick;
+	text-align: left;
+}
+
+@media (max-width: 800px) {
+	.profile {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		padding: 0rem;
+		width: 100%;
+		border-radius: 30px;
+	}
+}
+
+.footer {
+	height: 95px;
+	text-align: center;
+	background-color: darkslategrey;
+	padding: 0px;
+	color: yellow
+}
+
+.social {
+	margin: 15px;
+	text-align: center;
+}
+
+fab fa-facebook-f {
+	width: 100;
+}
+
+.social a {
+	justify-content: center;
+	align-items: center;
+	width: 10px;
+	height: 30px;
+	margin: 15px;
+	padding: 10px;
+	line-height: 10px;
+	background-color: darkgreen;
+	border-radius: 10px;
+}
+
+.social a:hover {
+	background-color: indianred;
+	transition: all ease 0.5s;
+}
+
+.social i {
+	font-size: 20px;
+	color: lightgoldenrodyellow;
+}
